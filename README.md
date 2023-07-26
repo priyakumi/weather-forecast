@@ -31,5 +31,6 @@ https://github.com/priyakumi/weather-forecast
 
 Deployed page:
 =============
+https://priyakumi.github.io/weather-forecast/
 
 

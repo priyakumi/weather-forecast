@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+<!--header-->
+   <header>
+    <h1> Weather Forecast </h1>
+   </header>
+
+
+   <div id="headerwrapper">
+    City Name:
+    <input id="cityname" type= "text">
+    <button id="btn1 " onclick="getData()"> Click</button> 
+     
+   </div>
+
+<div id="currentday">
+    <h2 id = cityname-header>City Name </h2>  
+    <p id="cdate" ></p> 
+    <p id="cday"></p>
+    <p id="ctemp"></p>
+</div>
+
+    
+<div id ="weathercontainter">
+
+
+<!--Day-1 box-->
+<div id ="day1box"> 
+    <h3 id = "wday1" >  </h3>
+    <h3 id = "Date1" > </h3>
+    <p id = "day-1">  </p>
+    <img  id="image1" class ="image"   src="image.png" alt="weather image" >
+    <p id="w1" > </p>
+    <p id="v1" ></p>
+</div>
+
+
+<!--Day-2 box-->
+<div id ="day2box"> 
+
+    <h3 id = "wday2" >  </h3>
+    <h3 id = "Date2" > </h3>
+    <p id = "day-2">  </p>
+    <img  id="image2" class ="image"   src="image.png" alt="weather image" >
+    <p id="w2" class="minclass"> </p>
+    <p id="v2" class="maxclass"></p>
+</div>
+
+
+<!--Day-3 box-->
+<div id ="day3box"> 
+    
+    <h3 id = "wday3" >  </h3>
+    <h3 id = "Date3" > </h3>
+    <p id = "day-3">  </p>
+    <img  id="image3" class ="image"   src="image.png" alt="weather image" >
+    <p id="w3" class="minclass"> </p>
+    <p id="v3" class="maxclass"></p>
+</div>
+
+
+<!--Day-4 box-->
+<div id ="day4box"> 
+   
+    <h3 id = "wday4" > </h3>
+    <h3 id = "Date4" > </h3>
+    <p id = "day-4" class="weather"> </p>
+    <img  id="image4" class ="image"   src="image.png" alt="weather image" >
+    <p id="w4" class="minclass"> </p>
+    <p id="v4" class="maxclass"> </p>
+</div>
+
+
+<!--Day-5 box-->
+<div id ="day5box"> 
+    
+    <h3 id = "wday5" > </h3>
+    <h3 id = "Date5" > </h3>
+    <p id = "day-5" class="weather"> </p>
+    <img  id="image5" class ="image"   src="image.png" alt="weather image" >
+    <p id="w5" class="minclass"> </p>
+    <p id="v5" class="maxclass"></p>
+</div>
+
+
+    
+</div> <!-- weathercontainer div end here-->
+</center>
+
+
+
+<script src="./script.js"></script>
+
+  
+</body>
+</html>

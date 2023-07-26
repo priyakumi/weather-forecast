@@ -1,0 +1,3 @@
+https://pro.openweathermap.org/data/2.5/forecast/hourly?q={city name}&appid={API key}
+
+api key: 410cc1be343c90e417f4a417f7be0d50

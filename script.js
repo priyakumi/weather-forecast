@@ -13,20 +13,15 @@
  //console.log(m);
  var y =d.getFullYear();
  //console.log(y);
+ 
 
  //console.log("month",weekDays[day]+"."+monthArr[m]+"."+y);
  
  
  
 
-//day and datevalue used as weekDays array index.
 
-
-  document.getElementById("wday1").innerHTML =   day +"/"+m +"/"+y;
-  document.getElementById("wday2").innerHTML =  day+1 +"/"+m +"/"+y;
-  document.getElementById("wday3").innerHTML =  day+2 +"/"+m +"/"+y;
-  document.getElementById("wday4" ).innerHTML= day+3 +"/"+m +"/"+y;
-  document.getElementById("wday5").innerHTML =  day+4 +"/"+m +"/"+y;
+  
 
   
 
@@ -64,7 +59,16 @@ function getTemp(data)
  
 
     //console.log(data.list[i].main.temp_min);
+
+  //date
+
+  document.getElementById("wday1").innerHTML =   day +"/"+m +"/"+y;
+  document.getElementById("wday2").innerHTML =  day+1 +"/"+m +"/"+y;
+  document.getElementById("wday3").innerHTML =  day+2 +"/"+m +"/"+y;
+  document.getElementById("wday4" ).innerHTML= day+3 +"/"+m +"/"+y;
+  document.getElementById("wday5").innerHTML =  day+4 +"/"+m +"/"+y;
     
+  
  // current  temp
 
     document.getElementById('day-1').innerHTML = "Temp: " + data.list[i+0].main.temp+ "°";
